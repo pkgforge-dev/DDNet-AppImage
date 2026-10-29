@@ -7,7 +7,7 @@ export ARCH
 export OUTPATH=./dist
 export ADD_HOOKS="self-updater.hook"
 export UPINFO="gh-releases-zsync|${GITHUB_REPOSITORY%/*}|${GITHUB_REPOSITORY#*/}|latest|*$ARCH.AppImage.zsync"
-export ICON=./ddnet.png
+export ICON=https://raw.githubusercontent.com/ddnet/ddnet/refs/heads/master/other/icons/DDNet_256x256x32.png
 export DESKTOP=./ddnet.desktop
 export DEPLOY_OPENGL=1
 export DEPLOY_VULKAN=1
